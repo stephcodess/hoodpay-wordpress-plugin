@@ -26,15 +26,13 @@ The HoodPay Gateway WordPress plugin allows you to seamlessly integrate HoodPay 
 
 ## Usage
 
-### Adding a Payment Button
+### Add the Payment Button to a Page or Post
 
-Use the `[hoodpay_payment amount="100" currency="USD"]` shortcode to render a payment button. Replace `amount` and `currency` with the desired values.
+To add the HoodPay payment button to a page or post, use the following shortcode:
 
-Example:
+###php code
+echo do_shortcode('[hoodpay_payment total_amount_id="total_amount"]');
 
-```html
-[hoodpay_payment amount="150" currency="EUR"]
-```
 
 ### Viewing Transactions
 
